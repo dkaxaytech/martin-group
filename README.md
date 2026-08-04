@@ -1,6 +1,6 @@
-# Example Group
+# Windfarm Group
 
-Premium corporate website for Example Group — multi-brand sample covering Example Windfarm and Example Spinning Mills.
+Premium corporate website for Windfarm Group — multi-brand sample covering Windfarm and Windfarm Spinning Mills.
 
 ## Tech Stack
 
@@ -32,8 +32,8 @@ npm run preview
 | `/` | Home |
 | `/about` | About |
 | `/group` | Group Companies |
-| `/wind-energy` | Example Windfarm |
-| `/brands/spinning-mills` | Example Spinning Mills |
+| `/wind-energy` | Windfarm |
+| `/brands/spinning-mills` | Windfarm Spinning Mills |
 | `/services` | Services |
 | `/projects` | Projects |
 | `/sustainability` | Sustainability |

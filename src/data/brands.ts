@@ -5,7 +5,7 @@ import { images } from './images'
 export const brands: BrandItem[] = [
   {
     id: 'wind-energy',
-    name: 'Example Windfarm',
+    name: 'Windfarm',
     description:
       'Delivering renewable energy solutions through modern wind farms and sustainable power generation.',
     image: images.heroWind,
@@ -14,7 +14,7 @@ export const brands: BrandItem[] = [
   },
   {
     id: 'spinning-mills',
-    name: 'Example Spinning Mills',
+    name: 'Windfarm Spinning Mills',
     description: 'Experience Quality and Sustainability in Textile Production.',
     image: images.textileFactory,
     buttonText: 'Explore',

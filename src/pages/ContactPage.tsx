@@ -11,7 +11,7 @@ export default function ContactPage() {
     <>
       <SEO
         title="Contact"
-        description="Contact Example Group — address, phone, email, and inquiry form for partnerships."
+        description="Contact Windfarm Group — address, phone, email, and inquiry form for partnerships."
       />
       <PageHero
         title="Contact Us"
@@ -57,7 +57,7 @@ export default function ContactPage() {
                       Google Map Placeholder
                     </p>
                     <p className="mt-2 text-sm text-slate-soft">
-                      Embed your Google Maps iframe here for the Example Group headquarters location.
+                      Embed your Google Maps iframe here for the Windfarm Group headquarters location.
                     </p>
                   </div>
                 </div>

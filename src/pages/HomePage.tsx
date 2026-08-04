@@ -17,13 +17,13 @@ export default function HomePage() {
     <>
       <SEO
         title="Home"
-        description="Example Group — diversified excellence in wind energy, textile manufacturing, and industrial innovation across India and beyond."
+        description="Windfarm Group — diversified excellence in wind energy, textile manufacturing, and industrial innovation across India and beyond."
       />
 
       <section className="relative flex min-h-screen items-center overflow-hidden">
         <img
           src={images.heroWind}
-          alt="Example Group renewable energy and industrial leadership"
+          alt="Windfarm Group renewable energy and industrial leadership"
           className="absolute inset-0 h-full w-full object-cover"
           loading="eager"
         />
@@ -38,13 +38,13 @@ export default function HomePage() {
             className="max-w-3xl"
           >
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-green-light">
-              Example Group
+              Windfarm Group
             </p>
             <h1 className="font-display text-4xl font-bold leading-[1.1] text-white sm:text-5xl lg:text-7xl">
               Building Industries That Power Progress
             </h1>
             <p className="mt-6 max-w-xl text-base text-white/80 sm:text-lg">
-              From clean wind energy to precision textile manufacturing — Example Group delivers
+              From clean wind energy to precision textile manufacturing — Windfarm Group delivers
               innovation, sustainability, and quality across diversified businesses.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
@@ -81,9 +81,9 @@ export default function HomePage() {
           >
             <SectionHeading
               align="left"
-              eyebrow="About Example Group"
+              eyebrow="About Windfarm Group"
               title="A diversified group built on trust and industrial excellence"
-              description="Example Group brings together complementary businesses — including Example Windfarm and Example Spinning Mills — to create lasting value for customers, communities, and partners."
+              description="Windfarm Group brings together complementary businesses — including Windfarm and Windfarm Spinning Mills — to create lasting value for customers, communities, and partners."
             />
             <div className="mt-2 grid gap-4 sm:grid-cols-2">
               {coreValues.slice(0, 2).map((value) => {
@@ -112,7 +112,7 @@ export default function HomePage() {
             <div className="overflow-hidden rounded-3xl shadow-2xl shadow-navy/20">
               <img
                 src={images.turbineClose}
-                alt="Example Group industrial and energy operations"
+                alt="Windfarm Group industrial and energy operations"
                 loading="lazy"
                 className="h-full w-full object-cover"
               />
@@ -132,7 +132,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Group Companies"
             title="One group. Five complementary capabilities."
-            description="Example Group unites specialized businesses that cover energy, manufacturing, infrastructure, and engineering excellence."
+            description="Windfarm Group unites specialized businesses that cover energy, manufacturing, infrastructure, and engineering excellence."
           />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {groupCompanies.slice(0, 3).map((company, i) => (
@@ -153,7 +153,7 @@ export default function HomePage() {
             light
             eyebrow="Services"
             title="End-to-end wind energy expertise"
-            description="From first wind measurement to decades of optimized operations, Example Windfarm supports every stage of your project."
+            description="From first wind measurement to decades of optimized operations, Windfarm supports every stage of your project."
           />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((service, i) => (
@@ -170,7 +170,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Featured Projects"
             title="Clean power delivered at scale"
-            description="Explore a selection of Example Windfarm farms shaping energy landscapes across continents."
+            description="Explore a selection of Windfarm projects shaping energy landscapes across continents."
           />
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {projects.slice(0, 3).map((project, i) => (
@@ -195,7 +195,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-navy/85" />
         <div className="relative z-10 mx-auto max-w-3xl px-4 text-center sm:px-6">
           <h2 className="font-display text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-            Ready to partner with Example Group?
+            Ready to partner with Windfarm Group?
           </h2>
           <p className="mt-4 text-white/75">
             Whether you need renewable energy solutions or premium yarn manufacturing, our teams are

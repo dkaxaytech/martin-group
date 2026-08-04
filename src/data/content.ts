@@ -15,13 +15,13 @@ import { BRAND_LINKS } from '../config/brands'
 import { images } from './images'
 
 export const companyInfo = {
-  name: 'Example Group',
+  name: 'Windfarm Group',
   tagline: 'Innovation, Sustainability and Quality Across Industries',
   description:
-    'Example Group is a diversified enterprise spanning renewable energy, textile manufacturing, and complementary businesses — united by innovation, sustainability, and uncompromising quality.',
-  address: 'Example Group Corporate Office, Coimbatore, Tamil Nadu, India',
+    'Windfarm Group is a diversified enterprise spanning renewable energy, textile manufacturing, and complementary businesses — united by innovation, sustainability, and uncompromising quality.',
+  address: 'Windfarm Group Corporate Office, Coimbatore, Tamil Nadu, India',
   phone: '+91 422 000 0000',
-  email: 'hello@example.com',
+  email: 'hello@windfarm.com',
   hours: 'Monday – Saturday: 09:00 – 18:00 IST',
 }
 
@@ -66,7 +66,7 @@ export const coreValues: CoreValue[] = [
   {
     title: 'Excellence',
     description:
-      'Precision engineering, rigorous safety standards, and world-class operations define how Example Group performs.',
+      'Precision engineering, rigorous safety standards, and world-class operations define how Windfarm Group performs.',
     icon: 'Award',
   },
 ]
@@ -258,7 +258,7 @@ export const windBenefits: WindBenefit[] = [
 export const sustainabilityMilestones: SustainabilityMilestone[] = [
   {
     year: '2010',
-    title: 'Foundation of Example Group',
+    title: 'Foundation of Windfarm Group',
     description:
       'Established with a mission to accelerate the global shift toward clean wind power.',
   },

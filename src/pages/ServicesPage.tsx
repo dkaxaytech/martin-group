@@ -11,7 +11,7 @@ export default function ServicesPage() {
     <>
       <SEO
         title="Services"
-        description="Example Windfarm services include wind farm development, EPC, O&M, consulting, site assessment, and monitoring."
+        description="Windfarm services include wind farm development, EPC, O&M, consulting, site assessment, and monitoring."
       />
       <PageHero
         title="Services"

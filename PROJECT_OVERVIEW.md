@@ -1,16 +1,16 @@
-# Example Group — Project Overview
+# Windfarm Group — Project Overview
 
 **Last updated:** August 4, 2026  
 **Location:** `Mine/sample1`  
-**Type:** Static premium corporate website (Example Group — multi-brand)  
-**GitHub:** https://github.com/dkaxaytech/example-group  
-**Live site:** https://dkaxaytech.github.io/example-group/
+**Type:** Static premium corporate website (Windfarm Group — multi-brand)  
+**GitHub:** https://github.com/dkaxaytech/windfarm  
+**Live site:** https://dkaxaytech.github.io/windfarm/
 
 ---
 
 ## 1. Project Summary
 
-Example Group is a production-ready React corporate website representing the **entire Example Group**. Example Windfarm is one group business; Example Spinning Mills is another. The design language targets Fortune 500 corporate peers — generous whitespace, large imagery, soft shadows, glass morphism, rounded cards, and green / white / navy / gray branding.
+Windfarm Group is a production-ready React corporate website representing the **entire Windfarm Group**. Windfarm is one group business; Windfarm Spinning Mills is another. The design language targets Fortune 500 corporate peers — generous whitespace, large imagery, soft shadows, glass morphism, rounded cards, and green / white / navy / gray branding.
 
 ---
 
@@ -42,7 +42,7 @@ export const BRAND_LINKS = {
 To point Spinning Mills at another domain later, change only:
 
 ```ts
-spinning: 'https://spinning.example.com'
+spinning: 'https://spinning.windfarm.com'
 ```
 
 Brand cards and routes read from this constant (BrandCard supports external `http/https` links).
@@ -64,8 +64,8 @@ Each brand object:
 
 Current brands:
 
-1. **Example Windfarm** → `/wind-energy`
-2. **Example Spinning Mills** → `BRAND_LINKS.spinning`
+1. **Windfarm** → `/wind-energy`
+2. **Windfarm Spinning Mills** → `BRAND_LINKS.spinning`
 
 Add future companies by appending objects to this array.
 
@@ -76,10 +76,10 @@ Add future companies by appending objects to this array.
 | Route | Page |
 |---|---|
 | `/` | Home (includes Our Brands below About) |
-| `/about` | About Example Group |
+| `/about` | About Windfarm Group |
 | `/group` | Group Companies |
-| `/wind-energy` | Example Windfarm |
-| `/brands/spinning-mills` | Example Spinning Mills (full brand site) |
+| `/wind-energy` | Windfarm |
+| `/brands/spinning-mills` | Windfarm Spinning Mills (full brand site) |
 | `/services` | Services |
 | `/projects` | Projects |
 | `/sustainability` | Sustainability |
@@ -90,7 +90,7 @@ Add future companies by appending objects to this array.
 
 ---
 
-## 6. Example Spinning Mills Page Sections
+## 6. Windfarm Spinning Mills Page Sections
 
 Route: `/brands/spinning-mills`  
 Data: `src/data/spinningMills.ts`  
@@ -110,7 +110,7 @@ Implemented sections:
 10. Why Choose Us
 11. Achievements
 12. Gallery (lightbox)
-13. CTA — Ready to Partner With Example Spinning Mills?
+13. CTA — Ready to Partner With Windfarm Spinning Mills?
 14. Contact details
 
 ---
@@ -164,7 +164,7 @@ Spinning Mills: [http://localhost:5173/brands/spinning-mills](http://localhost:5
 ## 10. Hosting
 
 - Hosted on **GitHub Pages** via Actions (`.github/workflows/deploy.yml`)
-- Vite `base` is `/example-group/` for project-site paths
+- Vite `base` is `/windfarm/` for project-site paths
 - React Router uses `basename` from `import.meta.env.BASE_URL`
 - SPA fallback: workflow copies `index.html` → `404.html`
 
@@ -172,15 +172,15 @@ Spinning Mills: [http://localhost:5173/brands/spinning-mills](http://localhost:5
 
 ## 11. Build Log (Latest)
 
-1. Rebranded site identity to **Example Group**
+1. Rebranded site identity to **Windfarm Group**
 2. Added `BRAND_LINKS` config for easy URL switching
 3. Added `brands.ts` data-driven Our Brands cards
 4. Inserted Our Brands section on Home below About
-5. Built full Example Spinning Mills brand page
+5. Built full Windfarm Spinning Mills brand page
 6. Wired route from `BRAND_LINKS.spinning`
 7. Added Spinning Mills to navbar
 8. Updated SEO, sitemap, robots, overview
-9. Published to GitHub Pages (`dkaxaytech/example-group`)
+9. Published to GitHub Pages (`dkaxaytech/windfarm`)
 
 ---
 
