@@ -2,7 +2,9 @@
 
 **Last updated:** August 4, 2026  
 **Location:** `Mine/sample1`  
-**Type:** Static premium corporate website (Martin Group — multi-brand)
+**Type:** Static premium corporate website (Martin Group — multi-brand)  
+**GitHub:** https://github.com/dkaxaytech/martin-group  
+**Live site:** https://dkaxaytech.github.io/martin-group/
 
 ---
 
@@ -159,7 +161,16 @@ Spinning Mills: [http://localhost:5173/brands/spinning-mills](http://localhost:5
 
 ---
 
-## 10. Build Log (Latest)
+## 10. Hosting
+
+- Hosted on **GitHub Pages** via Actions (`.github/workflows/deploy.yml`)
+- Vite `base` is `/martin-group/` for project-site paths
+- React Router uses `basename` from `import.meta.env.BASE_URL`
+- SPA fallback: workflow copies `index.html` → `404.html`
+
+---
+
+## 11. Build Log (Latest)
 
 1. Rebranded site identity to **Martin Group**
 2. Added `BRAND_LINKS` config for easy URL switching
@@ -169,10 +180,11 @@ Spinning Mills: [http://localhost:5173/brands/spinning-mills](http://localhost:5
 6. Wired route from `BRAND_LINKS.spinning`
 7. Added Spinning Mills to navbar
 8. Updated SEO, sitemap, robots, overview
+9. Published to GitHub Pages (`dkaxaytech/martin-group`)
 
 ---
 
-## 11. Known Placeholders
+## 12. Known Placeholders
 
 - Google Map iframe on Contact
 - EmailJS not live-connected
