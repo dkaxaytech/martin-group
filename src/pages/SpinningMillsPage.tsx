@@ -24,6 +24,7 @@ import {
 import { images } from '../data/images'
 import { Button } from '../components/ui/Button'
 import { Lightbox } from '../components/ui/Lightbox'
+import { Logo } from '../components/ui/Logo'
 import { SEO } from '../components/ui/SEO'
 import { SectionHeading } from '../components/ui/SectionHeading'
 import { StatCounter } from '../components/ui/StatCounter'
@@ -52,16 +53,15 @@ export default function SpinningMillsPage() {
         <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-col px-4 pb-28 pt-36 sm:px-6 lg:px-8">
           <div className="mb-10 flex flex-wrap items-start justify-between gap-6">
             <div className="rounded-2xl glass px-4 py-3">
+              <Logo variant="spinning" light decorative />
+            </div>
+            <div className="rounded-2xl glass px-4 py-3 text-right">
               <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-green-light">
                 Symbol of Trust
               </p>
               <p className="font-display text-sm font-bold text-white sm:text-base">
-                Windfarm Spinning Mills Private Ltd
+                Windfarm Spinning Mills
               </p>
-            </div>
-            <div className="rounded-2xl glass px-4 py-3 text-right">
-              <p className="font-display text-lg font-bold tracking-wide text-white">WINDFARM</p>
-              <p className="text-[10px] uppercase tracking-[0.2em] text-white/60">Brand Company</p>
             </div>
           </div>
 
