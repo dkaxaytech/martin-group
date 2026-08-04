@@ -12,7 +12,7 @@ export default function SustainabilityPage() {
     <>
       <SEO
         title="Sustainability"
-        description="Martin Group sustainability commitments — carbon reduction, green energy, environment, and community impact."
+        description="Example Group sustainability commitments — carbon reduction, green energy, environment, and community impact."
       />
       <PageHero
         title="Sustainability"

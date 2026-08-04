@@ -11,7 +11,7 @@ export default function GroupPage() {
     <>
       <SEO
         title="Group Companies"
-        description="Explore Martin Group companies spanning wind, solar, infrastructure, logistics, engineering, and textiles."
+        description="Explore Example Group companies spanning wind, solar, infrastructure, logistics, engineering, and textiles."
       />
       <PageHero
         title="Group Companies"
@@ -24,7 +24,7 @@ export default function GroupPage() {
           <SectionHeading
             eyebrow="Our Portfolio"
             title="Specialized companies. Shared purpose."
-            description="Each Martin Group company operates with focused expertise while collaborating across projects to deliver seamless industrial outcomes."
+            description="Each Example Group company operates with focused expertise while collaborating across projects to deliver seamless industrial outcomes."
           />
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {groupCompanies.map((company, i) => (

@@ -7,12 +7,12 @@ interface SEOProps {
 
 export function SEO({ title, description }: SEOProps) {
   useEffect(() => {
-    document.title = `${title} | Martin Group`
+    document.title = `${title} | Example Group`
     const meta = document.querySelector('meta[name="description"]')
     if (meta) meta.setAttribute('content', description)
 
     const ogTitle = document.querySelector('meta[property="og:title"]')
-    if (ogTitle) ogTitle.setAttribute('content', `${title} | Martin Group`)
+    if (ogTitle) ogTitle.setAttribute('content', `${title} | Example Group`)
 
     const ogDesc = document.querySelector('meta[property="og:description"]')
     if (ogDesc) ogDesc.setAttribute('content', description)

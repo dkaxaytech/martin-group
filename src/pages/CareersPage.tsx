@@ -12,7 +12,7 @@ export default function CareersPage() {
     <>
       <SEO
         title="Careers"
-        description="Join Martin Group — explore open roles across wind energy, textiles, and industrial operations."
+        description="Join Example Group — explore open roles across wind energy, textiles, and industrial operations."
       />
       <PageHero
         title="Careers"
@@ -23,7 +23,7 @@ export default function CareersPage() {
       <section className="py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            eyebrow="Why Martin"
+            eyebrow="Why Example"
             title="Benefits that support ambitious careers"
             description="We invest in people who share our passion for renewable energy and operational excellence."
           />

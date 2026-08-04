@@ -7,11 +7,11 @@ export default function PrivacyPolicyPage() {
     <>
       <SEO
         title="Privacy Policy"
-        description="Martin Group privacy policy — how we collect, use, and protect personal information."
+        description="Example Group privacy policy — how we collect, use, and protect personal information."
       />
       <PageHero
         title="Privacy Policy"
-        subtitle="Your privacy matters. This policy explains how Martin Group handles personal data."
+        subtitle="Your privacy matters. This policy explains how Example Group handles personal data."
         image={images.officeDesk}
       />
 
@@ -23,10 +23,10 @@ export default function PrivacyPolicyPage() {
             <section>
               <h2 className="font-display text-2xl font-bold text-navy">1. Introduction</h2>
               <p className="mt-3">
-                Martin Group (“we”, “us”, or “our”) respects your privacy and is committed to
+                Example Group (“we”, “us”, or “our”) respects your privacy and is committed to
                 protecting personal information collected through our website and business
                 communications. This Privacy Policy describes how we collect, use, store, and share
-                information when you visit www.martingroup.com or contact us.
+                information when you visit www.example.com or contact us.
               </p>
             </section>
 
@@ -73,15 +73,15 @@ export default function PrivacyPolicyPage() {
               <p className="mt-3">
                 Depending on your jurisdiction, you may have rights to access, correct, delete, or
                 restrict processing of your personal data. To exercise these rights, contact us at
-                hello@martingroup.com.
+                hello@example.com.
               </p>
             </section>
 
             <section>
               <h2 className="font-display text-2xl font-bold text-navy">7. Contact</h2>
               <p className="mt-3">
-                For privacy-related questions, write to Martin Group, Coimbatore, Tamil Nadu, India,
-                or email hello@martingroup.com.
+                For privacy-related questions, write to Example Group, Coimbatore, Tamil Nadu, India,
+                or email hello@example.com.
               </p>
             </section>
           </div>

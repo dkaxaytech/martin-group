@@ -35,15 +35,15 @@ export default function SpinningMillsPage() {
   return (
     <>
       <SEO
-        title="Martin Spinning Mills"
-        description="Martin Spinning Mills — premium yarn manufacturing near Coimbatore with 80,000+ spindles, ISO quality practices, and nationwide supply across India."
+        title="Example Spinning Mills"
+        description="Example Spinning Mills — premium yarn manufacturing near Coimbatore with 80,000+ spindles, ISO quality practices, and nationwide supply across India."
       />
 
       {/* Hero Banner */}
       <section className="relative flex min-h-[88vh] items-center overflow-hidden">
         <img
           src={images.textileFactory}
-          alt="Martin Spinning Mills yarn production floor"
+          alt="Example Spinning Mills yarn production floor"
           className="absolute inset-0 h-full w-full object-cover object-center"
           loading="eager"
         />
@@ -56,11 +56,11 @@ export default function SpinningMillsPage() {
                 Symbol of Trust
               </p>
               <p className="font-display text-sm font-bold text-white sm:text-base">
-                Martin Spinning Mills Private Ltd
+                Example Spinning Mills Private Ltd
               </p>
             </div>
             <div className="rounded-2xl glass px-4 py-3 text-right">
-              <p className="font-display text-lg font-bold tracking-wide text-white">MARTIN GROUP</p>
+              <p className="font-display text-lg font-bold tracking-wide text-white">EXAMPLE GROUP</p>
               <p className="text-[10px] uppercase tracking-[0.2em] text-white/60">Group Company</p>
             </div>
           </div>
@@ -124,7 +124,7 @@ export default function SpinningMillsPage() {
           >
             <img
               src={images.textileFactory}
-              alt="Martin Spinning Mills manufacturing floor"
+              alt="Example Spinning Mills manufacturing floor"
               loading="lazy"
               className="h-full w-full object-cover"
             />
@@ -333,7 +333,7 @@ export default function SpinningMillsPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeading
             eyebrow="Why Choose Us"
-            title="Why leading buyers choose Martin Spinning Mills"
+            title="Why leading buyers choose Example Spinning Mills"
           />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {spinningWhyChoose.map((item, i) => {
@@ -391,7 +391,7 @@ export default function SpinningMillsPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeading
             eyebrow="Gallery"
-            title="Inside Martin Spinning Mills"
+            title="Inside Example Spinning Mills"
             description="A glimpse of our plant, products, and people-powered production culture."
           />
           <div className="columns-1 gap-4 sm:columns-2 lg:columns-3">
@@ -434,7 +434,7 @@ export default function SpinningMillsPage() {
         <div className="absolute inset-0 bg-navy/85" />
         <div className="relative z-10 mx-auto max-w-3xl px-4 text-center sm:px-6">
           <h2 className="font-display text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-            Ready to Partner With Martin Spinning Mills?
+            Ready to Partner With Example Spinning Mills?
           </h2>
           <p className="mt-4 text-white/75">
             Let’s discuss yarn specifications, volume programs, and long-term supply partnerships.
@@ -450,7 +450,7 @@ export default function SpinningMillsPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeading
             eyebrow="Contact"
-            title="Connect with Martin Spinning Mills"
+            title="Connect with Example Spinning Mills"
             description="Reach our commercial team for enquiries, samples, and partnership discussions."
           />
           <div className="mx-auto grid max-w-4xl gap-4 sm:grid-cols-3">
@@ -482,7 +482,7 @@ export default function SpinningMillsPage() {
           </div>
           <div className="mt-8 text-center">
             <Link to="/contact" className="text-sm font-semibold text-green hover:text-green-dark">
-              Or use the Martin Group contact form →
+              Or use the Example Group contact form →
             </Link>
           </div>
         </div>

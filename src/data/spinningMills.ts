@@ -3,23 +3,23 @@ import type { GalleryItem } from '../types'
 import { images } from './images'
 
 export const spinningCompany = {
-  name: 'Martin Spinning Mills',
-  legalName: 'Martin Spinning Mills Private Ltd',
+  name: 'Example Spinning Mills',
+  legalName: 'Example Spinning Mills Private Ltd',
   tagline: 'Symbol of Trust',
   heroHeadline: 'Reshaping the Textile Industry through Forward-Thinking and Ingenuity',
   location: 'Near Coimbatore, Tamil Nadu, India',
-  email: 'spinning@martingroup.com',
+  email: 'spinning@example.com',
   phone: '+91 422 000 0000',
-  address: 'Martin Spinning Mills, Near Coimbatore, Tamil Nadu, India',
+  address: 'Example Spinning Mills, Near Coimbatore, Tamil Nadu, India',
 }
 
 export const spinningAbout = {
   eyebrow: 'About the Company',
   title: 'Precision yarn manufacturing rooted in Coimbatore excellence',
   paragraphs: [
-    'Since February 2009, Martin Spinning Mills has grown from a focused regional spinner into a trusted yarn partner for customers across India. What began with 10,000 spindles has evolved into a modern manufacturing ecosystem exceeding 80,000 spindles — powered by skilled craftsmanship and disciplined quality systems.',
+    'Since February 2009, Example Spinning Mills has grown from a focused regional spinner into a trusted yarn partner for customers across India. What began with 10,000 spindles has evolved into a modern manufacturing ecosystem exceeding 80,000 spindles — powered by skilled craftsmanship and disciplined quality systems.',
     'Today, our teams of nearly 1,000 professionals produce cotton, viscose, polyester, and blended yarns that meet demanding commercial and industrial standards. Every process is engineered for consistency, sustainability, and long-term customer value.',
-    'Looking ahead, we are expanding toward more than 100,000 spindles while strengthening ISO-aligned quality practices — ensuring Martin Spinning Mills remains a symbol of trust in India’s textile value chain.',
+    'Looking ahead, we are expanding toward more than 100,000 spindles while strengthening ISO-aligned quality practices — ensuring Example Spinning Mills remains a symbol of trust in India’s textile value chain.',
   ],
 }
 
@@ -35,7 +35,7 @@ export const spinningJourney: JourneyMilestone[] = [
     year: '2009',
     title: 'Company Started',
     description:
-      'Martin Spinning Mills began operations near Coimbatore with an inaugural capacity of 10,000 spindles.',
+      'Example Spinning Mills began operations near Coimbatore with an inaugural capacity of 10,000 spindles.',
   },
   {
     year: 'Growth',
@@ -45,9 +45,9 @@ export const spinningJourney: JourneyMilestone[] = [
   },
   {
     year: 'Expansion',
-    title: 'Martin Fabrics Established',
+    title: 'Example Fabrics Established',
     description:
-      'The group extended its textile footprint with Martin Fabrics, strengthening downstream capabilities.',
+      'The group extended its textile footprint with Example Fabrics, strengthening downstream capabilities.',
   },
   {
     year: 'Today',
@@ -228,7 +228,7 @@ export const spinningGallery: GalleryItem[] = [
   {
     id: 'sg1',
     src: images.textileMill,
-    alt: 'Martin Spinning Mills manufacturing environment',
+    alt: 'Example Spinning Mills manufacturing environment',
     category: 'Plant',
   },
   {

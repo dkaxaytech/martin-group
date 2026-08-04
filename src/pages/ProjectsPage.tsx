@@ -27,7 +27,7 @@ export default function ProjectsPage() {
     <>
       <SEO
         title="Projects"
-        description="Browse Martin Wind Energy projects — completed, running, and upcoming developments worldwide."
+        description="Browse Example Windfarm projects — completed, running, and upcoming developments worldwide."
       />
       <PageHero
         title="Projects"

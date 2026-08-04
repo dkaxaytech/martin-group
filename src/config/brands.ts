@@ -1,7 +1,7 @@
 /**
  * Brand destination URLs — change these in one place when domains/paths change.
  * Example future switch:
- *   spinning: 'https://spinning.martingroup.com'
+ *   spinning: 'https://spinning.example.com'
  */
 export const BRAND_LINKS = {
   windEnergy: '/wind-energy',

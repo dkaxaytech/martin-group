@@ -12,7 +12,7 @@ export default function WindEnergyPage() {
     <>
       <SEO
         title="Wind Energy"
-        description="Discover how Martin Wind Energy farms work — technology, benefits, and the power generation process."
+        description="Discover how Example Windfarm farms work — technology, benefits, and the power generation process."
       />
       <PageHero
         title="Wind Energy"
@@ -121,7 +121,7 @@ export default function WindEnergyPage() {
                   Technology that performs in real conditions
                 </h3>
                 <p className="mt-4 text-white/70 leading-relaxed">
-                  Martin Wind Energy deploys high-capacity turbines, digital twins, and advanced foundation
+                  Example Windfarm deploys high-capacity turbines, digital twins, and advanced foundation
                   designs tailored to onshore, coastal, and offshore environments. Our engineering
                   standards prioritize safety, availability, and lifetime energy yield.
                 </p>

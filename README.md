@@ -1,6 +1,6 @@
-# WindNova Group
+# Example Group
 
-Premium corporate website for WindNova Group — a renewable wind energy company.
+Premium corporate website for Example Group — multi-brand sample covering Example Windfarm and Example Spinning Mills.
 
 ## Tech Stack
 
@@ -32,7 +32,8 @@ npm run preview
 | `/` | Home |
 | `/about` | About |
 | `/group` | Group Companies |
-| `/wind-energy` | Wind Energy |
+| `/wind-energy` | Example Windfarm |
+| `/brands/spinning-mills` | Example Spinning Mills |
 | `/services` | Services |
 | `/projects` | Projects |
 | `/sustainability` | Sustainability |
@@ -44,5 +45,5 @@ npm run preview
 ## Notes
 
 - Contact form uses an **EmailJS placeholder** — wire `emailjs.sendForm` when credentials are ready.
-- Images load from Unsplash CDN with lazy loading.
+- Images are served from `/public/images` with Vite `base` for GitHub Pages.
 - See `PROJECT_OVERVIEW.md` for a full inventory of what was built.

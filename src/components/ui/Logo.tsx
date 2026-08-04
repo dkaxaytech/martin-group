@@ -6,13 +6,13 @@ interface LogoProps {
   light?: boolean
 }
 
-/** Martin Group wordmark — geometric M mark */
+/** Example Group wordmark — geometric E mark */
 export function Logo({ className, light = false }: LogoProps) {
   return (
     <Link
       to="/"
       className={cn('flex items-center gap-2.5 min-w-0', className)}
-      aria-label="Martin Group home"
+      aria-label="Example Group home"
     >
       <span
         className={cn(
@@ -38,7 +38,7 @@ export function Logo({ className, light = false }: LogoProps) {
             light ? 'text-white' : 'text-navy',
           )}
         >
-          MARTIN
+          EXAMPLE
         </span>
         <span
           className={cn(

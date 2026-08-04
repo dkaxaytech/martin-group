@@ -13,10 +13,10 @@ export default function AboutPage() {
     <>
       <SEO
         title="About"
-        description="Learn about Martin Group — our mission, vision, and values driving diversified industrial excellence."
+        description="Learn about Example Group — our mission, vision, and values driving diversified industrial excellence."
       />
       <PageHero
-        title="About Martin Group"
+        title="About Example Group"
         subtitle="We are builders of clean power and industrial excellence, committed to a sustainable future."
         image={images.natureHills}
       />
@@ -33,7 +33,7 @@ export default function AboutPage() {
               align="left"
               eyebrow="Who We Are"
               title="Engineering the future across energy and industry"
-              description="Martin Group is a diversified enterprise with businesses in renewable wind energy and textile manufacturing. As a group platform spanning complementary industries, we bring deep technical expertise and a long-term ownership mindset to every venture."
+              description="Example Group is a diversified enterprise with businesses in renewable wind energy and textile manufacturing. As a group platform spanning complementary industries, we bring deep technical expertise and a long-term ownership mindset to every venture."
             />
             <p className="text-slate-soft leading-relaxed">
               Our teams collaborate across wind power and spinning operations — partnering with
@@ -52,7 +52,7 @@ export default function AboutPage() {
           >
             <img
               src={images.coastalWind}
-              alt="Martin Wind Energy farm landscape"
+              alt="Example Windfarm farm landscape"
               loading="lazy"
               className="h-full w-full object-cover"
             />

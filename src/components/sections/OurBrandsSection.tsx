@@ -13,7 +13,7 @@ export function OurBrandsSection() {
           light
           eyebrow="Our Brands"
           title="Our Brands"
-          description="Martin Group operates diversified businesses committed to innovation, sustainability and quality across multiple industries."
+          description="Example Group operates diversified businesses committed to innovation, sustainability and quality across multiple industries."
         />
 
         <div className="grid gap-8 lg:grid-cols-2">
