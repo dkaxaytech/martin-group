@@ -1,6 +1,6 @@
-# Windfarm Group
+# Windfarm
 
-Premium corporate website for Windfarm Group — multi-brand sample covering Windfarm and Windfarm Spinning Mills.
+Premium corporate website for Windfarm — multi-brand sample covering Windfarm and Windfarm Spinning Mills.
 
 ## Tech Stack
 

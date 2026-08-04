@@ -14,7 +14,7 @@ export default function GalleryPage() {
     <>
       <SEO
         title="Gallery"
-        description="Explore Windfarm Group gallery — wind farms, manufacturing, and people powering industrial progress."
+        description="Explore Windfarm gallery — wind farms, manufacturing, and people powering industrial progress."
       />
       <PageHero
         title="Gallery"

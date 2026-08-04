@@ -60,8 +60,8 @@ export default function SpinningMillsPage() {
               </p>
             </div>
             <div className="rounded-2xl glass px-4 py-3 text-right">
-              <p className="font-display text-lg font-bold tracking-wide text-white">WINDFARM GROUP</p>
-              <p className="text-[10px] uppercase tracking-[0.2em] text-white/60">Group Company</p>
+              <p className="font-display text-lg font-bold tracking-wide text-white">WINDFARM</p>
+              <p className="text-[10px] uppercase tracking-[0.2em] text-white/60">Brand Company</p>
             </div>
           </div>
 
@@ -482,7 +482,7 @@ export default function SpinningMillsPage() {
           </div>
           <div className="mt-8 text-center">
             <Link to="/contact" className="text-sm font-semibold text-green hover:text-green-dark">
-              Or use the Windfarm Group contact form →
+              Or use the Windfarm contact form →
             </Link>
           </div>
         </div>

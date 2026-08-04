@@ -12,7 +12,7 @@ export default function SustainabilityPage() {
     <>
       <SEO
         title="Sustainability"
-        description="Windfarm Group sustainability commitments — carbon reduction, green energy, environment, and community impact."
+        description="Windfarm sustainability commitments — carbon reduction, green energy, environment, and community impact."
       />
       <PageHero
         title="Sustainability"

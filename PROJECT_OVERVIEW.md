@@ -1,8 +1,8 @@
-# Windfarm Group — Project Overview
+# Windfarm — Project Overview
 
 **Last updated:** August 4, 2026  
 **Location:** `Mine/sample1`  
-**Type:** Static premium corporate website (Windfarm Group — multi-brand)  
+**Type:** Static premium corporate website (Windfarm — multi-brand)  
 **GitHub:** https://github.com/dkaxaytech/windfarm  
 **Live site:** https://dkaxaytech.github.io/windfarm/
 
@@ -10,7 +10,7 @@
 
 ## 1. Project Summary
 
-Windfarm Group is a production-ready React corporate website representing the **entire Windfarm Group**. Windfarm is one group business; Windfarm Spinning Mills is another. The design language targets Fortune 500 corporate peers — generous whitespace, large imagery, soft shadows, glass morphism, rounded cards, and green / white / navy / gray branding.
+Windfarm is a production-ready React corporate website representing the **entire Windfarm**. Windfarm is one group business; Windfarm Spinning Mills is another. The design language targets Fortune 500 corporate peers — generous whitespace, large imagery, soft shadows, glass morphism, rounded cards, and green / white / navy / gray branding.
 
 ---
 
@@ -76,7 +76,7 @@ Add future companies by appending objects to this array.
 | Route | Page |
 |---|---|
 | `/` | Home (includes Our Brands below About) |
-| `/about` | About Windfarm Group |
+| `/about` | About Windfarm |
 | `/group` | Group Companies |
 | `/wind-energy` | Windfarm |
 | `/brands/spinning-mills` | Windfarm Spinning Mills (full brand site) |
@@ -172,7 +172,7 @@ Spinning Mills: [http://localhost:5173/brands/spinning-mills](http://localhost:5
 
 ## 11. Build Log (Latest)
 
-1. Rebranded site identity to **Windfarm Group**
+1. Rebranded site identity to **Windfarm**
 2. Added `BRAND_LINKS` config for easy URL switching
 3. Added `brands.ts` data-driven Our Brands cards
 4. Inserted Our Brands section on Home below About

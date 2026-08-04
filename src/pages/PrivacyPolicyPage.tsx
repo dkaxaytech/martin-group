@@ -7,11 +7,11 @@ export default function PrivacyPolicyPage() {
     <>
       <SEO
         title="Privacy Policy"
-        description="Windfarm Group privacy policy — how we collect, use, and protect personal information."
+        description="Windfarm privacy policy — how we collect, use, and protect personal information."
       />
       <PageHero
         title="Privacy Policy"
-        subtitle="Your privacy matters. This policy explains how Windfarm Group handles personal data."
+        subtitle="Your privacy matters. This policy explains how Windfarm handles personal data."
         image={images.officeDesk}
       />
 
@@ -23,7 +23,7 @@ export default function PrivacyPolicyPage() {
             <section>
               <h2 className="font-display text-2xl font-bold text-navy">1. Introduction</h2>
               <p className="mt-3">
-                Windfarm Group (“we”, “us”, or “our”) respects your privacy and is committed to
+                Windfarm (“we”, “us”, or “our”) respects your privacy and is committed to
                 protecting personal information collected through our website and business
                 communications. This Privacy Policy describes how we collect, use, store, and share
                 information when you visit www.windfarm.com or contact us.
@@ -80,7 +80,7 @@ export default function PrivacyPolicyPage() {
             <section>
               <h2 className="font-display text-2xl font-bold text-navy">7. Contact</h2>
               <p className="mt-3">
-                For privacy-related questions, write to Windfarm Group, Coimbatore, Tamil Nadu, India,
+                For privacy-related questions, write to Windfarm, Coimbatore, Tamil Nadu, India,
                 or email hello@windfarm.com.
               </p>
             </section>

@@ -12,7 +12,7 @@ export default function CareersPage() {
     <>
       <SEO
         title="Careers"
-        description="Join Windfarm Group — explore open roles across wind energy, textiles, and industrial operations."
+        description="Join Windfarm — explore open roles across wind energy, textiles, and industrial operations."
       />
       <PageHero
         title="Careers"
