@@ -123,7 +123,7 @@ export default function SpinningMillsPage() {
             className="overflow-hidden rounded-3xl shadow-2xl"
           >
             <img
-              src="/images/textile-factory.jpg"
+              src={images.textileFactory}
               alt="Martin Spinning Mills manufacturing floor"
               loading="lazy"
               className="h-full w-full object-cover"
@@ -426,7 +426,7 @@ export default function SpinningMillsPage() {
       {/* CTA */}
       <section className="relative overflow-hidden py-20">
         <img
-          src="/images/yarn-cotton.jpg"
+          src={images.yarnCotton}
           alt=""
           className="absolute inset-0 h-full w-full object-cover"
           loading="lazy"
